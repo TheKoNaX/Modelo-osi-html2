@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organización jerárquica de protocolos de redes de acuerdo con los niveles del modelo OSI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .capitulo {
+            margin-bottom: 20px;
+        }
+        .capitulo h2 {
+            color: #333;
+        }
+        .capitulo h3 {
+            color: #666;
+        }
+        .capitulo img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="capitulo">
+        <h2>Capa 1: Capa Física</h2>
+        <p>Descripción: La capa física es la más baja del modelo OSI. Es responsable de la transmisión de bits individuales de un nodo a otro1.</p>
+        <p>Ejemplos: Los ejemplos de protocolos utilizados en la capa física incluyen Ethernet (IEEE 802.3), Wi-Fi (IEEE 802.11), Bluetooth (IEEE 802.15), y otros.</p>
+        <img src="ruta/a/tu/imagen.jpg" alt="Descripción de la imagen">
+    </div>
+    <div class="capitulo">
+        <h2>Capa 2: Capa de Enlace de Datos</h2>
+        <p>Descripción: La capa de enlace de datos se encarga de la entrega de datos de nodo a nodo. Su función principal es asegurar que la transferencia de datos sea libre de errores de un nodo a otro, sobre la capa física2.</p>
+        <p>Ejemplos: Algunos ejemplos de protocolos de la capa de enlace de datos incluyen Ethernet (IEEE 802.3), Token Ring, Frame Relay, y otros3.</p>
+    </div>
+    <div class="capitulo">
+        <h2>Capa 3: Capa de Red</h2>
+        <p>Descripción: La capa de red proporciona los medios funcionales y de procedimiento para transferir secuencias de datos de longitud variable de un host fuente a un host de destino a través de una o más redes, manteniendo las funciones de calidad de servicio4.</p>
+        <p>Ejemplos: Algunos ejemplos de protocolos de la capa de red incluyen IP (Internet Protocol), ICMP (Internet Control Message Protocol), IGMP (Internet Group Management Protocol), IPsec (Internet Protocol Security), y otros5.</p>
+    </div>
+    <div class="capitulo">
+        <h2>Capa 4: Capa de Transporte</h2>
+        <p>Descripción: La capa de transporte asegura la entrega completa y confiable de paquetes de datos. Proporciona mecanismos como el control de errores, el control de flujo y el control de congestión para realizar un seguimiento de los paquetes de datos, verificar errores y duplicaciones, y reenviar la información que falla en la entrega6.</p>
+        <p>Ejemplos: Algunos ejemplos de protocolos de la capa de transporte incluyen TCP (Transmission Control Protocol), UDP (User Datagram Protocol), DCCP (Datagram Congestion Control Protocol), y otros7.</p>
+    </div>
+    <div class="capitulo">
+        <h2>Capa 5: Capa de Sesión</h2>
+        <p>Descripción: La capa de sesión controla las conversaciones entre diferentes computadoras. Una sesión o conexión entre máquinas se establece, se gestiona y se termina en la capa 58.</p>
+        <p>Ejemplos: Algunos ejemplos de protocolos utilizados en la capa 5 incluyen el Protocolo de Sesión AppleTalk (ASP), el Protocolo de Flujo de Datos AppleTalk (ADSP), el Protocolo de Capa de Sesión OSI (X.225, ISO 8327), y otros9.</p>
+    </div>
+    <div class="capitulo">
+        <h2>Capa 6: Capa de Presentación</h2>
+        <p>Descripción: La capa de presentación establece el contexto entre las entidades de la capa de aplicación, en el que las entidades de capas superiores pueden usar diferentes sintaxis y semánticas si el servicio de presentación proporciona un mapeo entre ellas10.</p>
+        <p>Ejemplos: Algunos ejemplos de protocolos utilizados en la capa de presentación incluyen el Protocolo de Archivos Apple (AFP), la Arquitectura de Computación Independiente (ICA), el Protocolo de Presentación Ligero (LPP), y otros11.</p>
+    </div>
+    <div class="capitulo">
+        <h2>Capa 7: Capa de Aplicación</h2>
+        <p>Descripción: La capa de aplicación proporciona una interfaz para enviar y recibir datos. Esta capa proporciona los protocolos y servicios que la aplicación necesita para acceder a esos recursos12.</p>
+        <p>Ejemplos: Algunos ejemplos de protocolos de la capa de aplicación incluyen HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), y otros13.</p>
+    </div>
+</body>
+</html>
